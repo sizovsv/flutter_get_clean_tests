@@ -1,0 +1,22 @@
+name: test_get_clean
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons:
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  flutter_screenutil: 
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+

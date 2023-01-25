@@ -1,0 +1,1 @@
+export 'package:test_get_clean/infrastructure/navigation/bindings/controllers/home.controller.binding.dart'; 
