@@ -6,11 +6,12 @@ environment:
   sdk: '>=2.18.6 <3.0.0'
 
 dependencies: 
-  cupertino_icons:
+  cupertino_icons: any
   get: 4.6.5
+  flutter_screenutil: any
+  convex_bottom_bar: 3.1.0+1
   flutter: 
     sdk: flutter
-  flutter_screenutil: 
 
 dev_dependencies: 
   flutter_lints: 2.0.1

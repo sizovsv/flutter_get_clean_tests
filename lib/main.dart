@@ -18,7 +18,16 @@ class Main extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
+        designSize: const Size(360, 690),
+        minTextAdapt: true,
+        splitScreenMode: true,
         builder: (_, __) => GetMaterialApp(
+              theme: ThemeData(
+                primarySwatch: Colors.blue,
+                textTheme:
+                    Typography.englishLike2018.apply(fontSizeFactor: 1.sp),
+              ),
+              debugShowCheckedModeBanner: false,
               initialRoute: initialRoute,
               getPages: Nav.routes,
             ));
